@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>MUSEUM - Menu</title>
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-        <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Visite Guidé</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style_catalogue_visite.css" />
     </head>
+    <body>
+        <!-- Menu des oeuvres -->
+        <div class="topBarOeuvre">
+            <a href="..." class="topBarOeuvreButton"> Populaire </a>
+            <a href="..." class="topBarOeuvreButton"> Section </a>
+            <a href="..." class="topBarOeuvreButton"> Durée </a>
+        </div>
 
-    <body id="page-top">
-        <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
-            <div class="container">
-                <a href="menu.html" class="navbar-brand">MUSEUM</a>
-                <ul class="nav navbar-nav ml-auto">
-                    <li role="presentation" class="nav-item text-secondary">
-                        <i class="fa fa-microphone"></i>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
-            <div class="intro-body">
-                <div class="container">
-                    
-
-                    <a class="btn btn-link btn-circle" role="button" href="#page-top">
-                        <i class="fa fa-angle-double-up animated"></i>
-                    </a>
+        <!-- Elément central -->
+        <div class="containerVisiteGuider">
+                <div class="containeVisiteCat">
+                    <div>
+                        <section class="catalogue-class">
+                                <article class="article-class" id="article-one">
+                                <div class="img-article"><img src="image/Guernica.jpg" height="200" width="400" /></div>    
+                                    <p class="paraOeuvre">Ceci est un article (1)</p>
+                                </article>
+                                <article class="article-class" id="article-two">
+                                    <div class="img-article"><img src="image/Joconde.jpg" height="200" width="200" /></div>
+                                    <p class="paraOeuvre">Ceci est un article (2)</p>
+                                </article>
+                                <article class="article-class" id="article-three">
+                                    <div class="img-article"><img src="image/Le_cri.jpg" height="200" width="400" /></div>
+                                    <p class="paraOeuvre">Ceci est un article (3)</p>
+                                </article>
+                        </section>
+                    </div>
+                    <!-- <div>
+                        <img class="imageSeparation" src="image/equal.png" alt="Séparation"/>
+                    </div> -->
+                    <div>
+                        <img class="imageCarte" src="image/maps.PNG" alt="Séparation"/>
+                    </div>
                 </div>
-            </div>
-        </header>
+        </div>
 
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Bas de la page -->
+        <div class="bottomBarOeuvre">
+            <a><img class="bottomQrcode" src="image/arrow_top.png"/></a>
+            <a><img class="bottomArrow" src="image/qrcode.png"/></a>
+        </div>
     </body>
 </html>
