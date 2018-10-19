@@ -14,7 +14,7 @@
         </div>
         <div>
             <div><img class="imgAvatar" src="image/man.png"/></div>
-            <div><img class="imgDoubleArrow" src="image/double_arrow.png"/></div>
+            <div><a href="menu.html"><img class="imgDoubleArrow" src="image/double_arrow.png"/></a></div>
         </div>
     </body>
 
